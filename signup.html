@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main{
+        background-color:  #f6f6f9;
+        margin-top: 0px;
+        padding-top: 0px;
+         }
+    #container{
+        display: flex;
+        width: 60%;
+        height: 650px;
+        margin: auto;
+       /* border: 1px solid black; */
+        
+    }
+    #form{
+       
+        width: 65%;
+        height: 550px;
+        margin-left: 10px;
+        display: grid;
+        background-color: white;
+       
+        /* border: 1px solid black; */
+      
+        
+        
+    }
+    input{
+        width:80%;
+        height: 35px;
+        border-radius: 5px;
+        border: .1px solid grey;
+        
+       
+    }
+    #desciption{
+       
+    
+        width: 35%;
+        height: 550px;
+        /* border: 1px solid black; */
+        text-align: center;
+        justify-content: center;
+        background-color: #ebebf0 ;
+        
+    }
+    label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    #desciption>div{
+        
+        margin: auto;
+        margin-top: 40%;
+        width: 100%;
+        height: 90%;
+    }
+
+    #names{
+        display: flex;
+    }
+    /* #firstname>div{
+        width: 40%;
+    } */
+    
+    #names>div{
+        width: 45%;
+    }
+    #red{
+        color: red;
+    }
+    p{
+        
+        
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    button{
+        width: 80px;
+        height: 30px;
+        color: white;
+        margin-left: 450px;
+        background-color: red;
+        border: none;
+        border-radius: 7px;
+    }
+    
+</style>
+<body>
+    <div id="main">
+        <div id="envoy">
+          <img src="https://signup.envoy.com/assets/images/logo-new.svg">
+        </div>
+        <div id="container">
+            <form action="">
+                <h2>Create your Envoy account</h2>
+                <label>Email</label>
+                <input id="email" type="email">
+                <div id="names">
+                    <div id="firstname">
+                <label>First name</label>
+                <input id="firstname" type="text"></div>
+                <div id="secondname">
+                <label>Last name</label>
+                <input id="lastname" type="text"></div>
+                </div>
+                <label>Phone number</label>
+                <input id="phoneno" type="number">
+                <label>Create password</label>
+                <input id="password" type="password">
+                <p>Password must be at least 8 characters and contain at least one capital letter, one lower case letter, and one number.</p>
+                <p>By clicking "Next" you agree to our<br><a href="#">Terms of Service</a>,<br><a href="#">Privacy Policy</a>, and to receive marketing communications from Envoy.</p>
+                <button type="submit">Next ></button>
+            </form>
+            <div id="desciption">
+                <div id="upper">
+                    <div>
+                    <h1>Envoy saves</h1>
+                    <h1>administrators</h1>
+                    <h1>an average of</h1>
+                    <h1 id="red">100 hours</h1>
+                    <h1>per year</h1>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./signup.js"></script>
