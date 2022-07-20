@@ -1,0 +1,99 @@
+#navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  margin-top: -10px;
+}
+#logo {
+  width: 17%;
+  margin-left: 10px;
+}
+#logo > img {
+  width: 47%;
+  cursor: pointer;
+}
+#menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 9%;
+}
+#menu > div {
+  margin-left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 550;
+  font-size: 116%;
+  color: rgb(117, 117, 117);
+  cursor: pointer;
+}
+#menu > div:hover {
+  color: rgb(253, 68, 68);
+}
+#loginBtn {
+  display: flex;
+}
+#login {
+  border: transparent;
+  background-color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 550;
+  font-size: 116%;
+  color: rgb(95, 95, 95);
+  cursor: pointer;
+}
+#login:hover {
+  color: rgb(253, 68, 68);
+}
+#started {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 90%;
+  border: transparent;
+  padding: 13px 23px;
+  background-color: rgb(255, 67, 67);
+  color: white;
+  margin-left: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popUp1, .popUp2 {
+  border: 2px solid;
+  padding: 100px;
+  width: 10%;
+  border: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  background-color: rgba(165, 42, 42, 0.164);
+  position: absolute;
+  top: 65px;
+  left: 38%;
+  transform: translate(0%, -90%) scale(0.1);
+  visibility: hidden;
+}
+#popup1, #popup2 {
+  transform: translate(0%, 0%) scale(1);
+  visibility: visible;
+}
+.popUp2 {
+   border: 2px solid;
+   padding: 100px;
+   width: 10%;
+   border: transparent;
+   border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin: auto;
+   background-color: rgba(23, 155, 41, 0.164);
+   position: absolute;
+   top: 65px;
+   left: 46%;
+   transform: translate(0%, -90%) scale(0.1);
+   visibility: hidden;
+ }
+ #popup2 {
+   transform: translate(0%, 0%) scale(1);
+   visibility: visible;
+ }
+

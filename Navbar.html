@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envoy</title>
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo">
+        <img
+          src="https://knightwatch.net/wp-content/uploads/2022/07/Envoy-logo1.png"
+          alt="Envoy"
+        />
+      </div>
+      <div id="menu">
+        <div id="hiring">We're hiring!</div>
+        <div onmouseenter="popUp1()" onclick="remPopUp1()" id="products">
+          Products ˅
+        </div>
+        <div onmouseenter="popUp2()" onclick="remPopUp2()" id="solutions">Solutions ˅</div>
+        <div id="resources">Resources ˅</div>
+        <div id="demo">Watch Demo</div>
+        <div id="pricing">Pricing ˅</div>
+      </div>
+      <div id="loginBtn">
+        <button id="login">Log in</button>
+        <button id="started">Get started</button>
+      </div>
+    </div>
+    <div onmouseleave="remPopUp1()" class="popUp1"></div>
+    <div onmouseleave="remPopUp2()" class="popUp2"></div>
+  </body>
+</html>
+<script src="navbar.js"></script>
