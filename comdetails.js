@@ -10,5 +10,6 @@ function compdata(){
         arr.push(obj);
         console.log(arr)
         localStorage.setItem("array",JSON.stringify(arr));
+        window.location.href="index.html";
     
 }
