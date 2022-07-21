@@ -1,0 +1,230 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #main{
+        background-color:  #f6f6f9;
+        margin-top: 0px;
+        padding-top: 0px;
+         }
+    #container{
+        display: flex;
+        width: 60%;
+        height: 650px;
+        margin: auto;
+        border-radius: 10px;
+       /* border: 1px solid black; */
+        
+    }
+    form{
+        margin:auto;
+        
+        padding-left: 10px;
+        width: 65%;
+        height: 550px;
+        margin-top: 30px;
+        display: grid;
+        background-color: white;
+        border-radius: 15px 0px 0px 15px;
+        /* border: 1px solid black; */
+      
+        
+        
+    }
+    input{
+        width:80%;
+        margin-top: 0px;
+        border-radius: 5px;
+        border: .1px solid grey;
+        margin-left: 5px;
+       
+    }
+    #desciption{
+        margin:auto;
+        margin-top: 30px;
+        width: 35%;
+        height: 550px;
+        border-radius: 0px 15px 15px px;
+        /* border: 1px solid black; */
+        
+        
+    }
+    label{
+       
+        margin-top: 10px;
+       
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    #desciption>img{
+        display: block;
+        size: 100%;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+    #names{
+        display: flex;
+    }
+    /* #firstname>div{
+        width: 40%;
+    } */
+    
+    #names>div{
+        width: 45%;
+    }
+    p{
+        
+        
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #first{
+        width: 18%;
+        height: 35px;
+        color:gray;
+        font-size:larger;
+        background-color: transparent;
+        border: .5px solid gray;
+        border-radius: 9px;  
+    }
+    #second{
+        width: 18%;
+        height: 35px;
+        color: white;
+        margin-right: 20px;
+        background-color: red;
+        border: none;
+        border-radius: 9px;
+        font-size: larger;
+    }
+    #but{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #red{
+        color: red;
+    }
+    #desciption{
+        height: 550px;
+        /* border:1px solid black; */
+        background-color: #ebebf0 ;
+        border-radius: 0px 10px 10px 0px;
+    }
+    select{
+        width: 80%;
+        border-radius: 5px;
+        font-size: 15px;
+        border: .1px solid grey;
+        
+        margin-left: 5px;
+    }
+   #desc{
+    display: block;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #ebebf0 ;
+    margin-top: 50px;
+
+   
+   } 
+   #desc>h2{
+     margin: 20px 50px 0px 60px;
+    align-items: center;
+    justify-content: center;
+    
+   }
+   #bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    height: 150px;
+    
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+  
+   }
+   #bottom>div{
+    justify-content: space-evenly;
+    background-color: white ;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+   }
+   #bottom>div>img{
+    display: block;
+    size: 100%;
+    margin: auto;
+   }
+
+    
+</style>
+<body>
+    <div id="main">
+        <div id="envoy">
+          <img src="https://signup.envoy.com/assets/images/logo-new.svg">
+        </div>
+        <div id="container">
+            <form action="">
+                <h2>Tell us a bit about your company</h2>
+                <label>Company address </label>
+                <input id="compaddress" type="text">
+                <label>Company name </label>
+                <input id="compname" type="text">
+                <label>Company size </label>
+                <select id="select">
+                    <option>Please select...</option>
+                    <option>1-49 employees</option>
+                    <option>50-250 employees</option>
+                    <option>251-1500 employees</option>
+                    <option>1501-5000 employees</option>
+                    <option>5000+ employees</option>
+                </select>
+                <div id="but">
+                <button id="first"onclick="signup(event)" >< Back</button>
+                <button id="second" onclick="sign(event)" type="submit">Let's go ></button></div>
+            </form>
+            <div id="desciption">
+                <div id="desc">
+                    <h2 id="red">Over 10,000</h2>
+                    <h2>companies</h2>
+                    <h2>trust Envoy to</h2>
+                    <h2>welcome</h2>
+                    <h2>employees and</h2>
+                    <h2>guests to their</h2>
+                    <h2>workplaces</h2>
+                </div>
+                <div id="bottom">
+                    <div><img src="https://signup.envoy.com/assets/images/logos/slack-logo.svg"></div>
+                 <div> <img src="https://signup.envoy.com/assets/images/logos/square-logo.svg"></div>
+                 <div><img src="https://signup.envoy.com/assets/images/logos/hulu-logo.svg"></div>
+                 <div><img src="https://signup.envoy.com/assets/images/logos/warby-parker-logo.svg"></div>
+                 <div><img src="https://signup.envoy.com/assets/images/logos/buzzfeed-logo.svg"></div>
+                 <div><img src="https://signup.envoy.com/assets/images/logos/mazda-logo.svg"></div>
+                
+                 
+                 
+            
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./comdetails.js"></script>

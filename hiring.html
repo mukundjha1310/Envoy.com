@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring</title>
+</head>
+<style>
+#box1{
+   width: 100%;
+   height: 560px; 
+ 
+    background-image: url(https://envoy.com/images/jobs/hero-desktop.svg);
+    background-size: cover;
+    text-align: center;
+    /* border: 1px solid red; */
+    
+}
+#together{
+    margin: auto;
+    margin-top: 200px;
+    padding-top: 150px;
+    width: 30%;
+  
+    margin: auto;
+}#heading{
+    font-size: xx-large;
+}
+#subheading{
+    color:grey;
+}
+#carreer{
+    background-color: red;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+}
+                                        /* box-2 start */ 
+    #box2{
+    width: 100%;
+   height: 700px; 
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin-top: 40px;
+}                                           
+     #lhs{
+        width: 40%;
+        height: auto;
+       
+     }     
+     #rhs {
+        width: 40%;
+        height: auto;
+        /* border: 1px solid black; */
+     }   
+     #lhs{
+        font: bolder;
+     }       
+     #lhs>h1{
+        margin-bottom: 50px;
+     }   
+     #lhs>div{
+        margin-top: 80px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        width: 70%;
+        height: auto;
+
+     }        
+     /* #heading1{
+        /* border: 1px solid black; */
+       
+     #rhs>img{
+        display: block;
+        width: 100%;
+        height: auto;
+     }
+</style>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="box1">
+        <div id="together">
+        <div class="content-wrapper has-staggered" data-staggered-content="">
+            <h1 id="heading">Let's work together</h1>
+            <h2 id="subheading">Envoy is home to dreamers and doers who are building seamless solutions for workplace admins, employees, and visitors around the world. Join us in our mission to make workplaces work better.</h2>
+            <div class="cta-wrapper">
+            <button id="carreer">
+            <span>Find your career</span> <span class="font-bold arrow">↓</span>
+            </a></button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="box2">
+     <div id="lhs">
+        <h1 >Life at Envoy</h1>
+        <div id="heading1" onmouseover="setimage1()" onmouseout="setimagea()">
+         <h2><img src="	https://envoy.com/images/icons/16px/cilantro-40/smiley.svg" alt="Personality" class="slide-icon">  Personality</h2>
+         <p id="h1"></p>
+        </div>
+        <div id="heading2" onmouseover="setimage2()"onmouseout="setimageb()">
+         <h2><img src="	https://envoy.com/images/icons/16px/cilantro-40/briefcase.svg" alt="Professional development" class="slide-icon">  Professional development</h2>
+         <p id="h2"></p>
+        </div>
+        <div id="heading3" onmouseover="setimage3()"onmouseout="setimagec()">
+            <h2><img src="https://envoy.com/images/icons/16px/cilantro-40/visitors.svg" alt="The best customers" class="slide-icon">  Product-market fit</h2>
+            <p id="h3"></p>
+        </div>
+        <div id="heading4" onmouseover="setimage4()"onmouseout="setimaged()">
+            <h2><img src="https://envoy.com/images/icons/16px/cilantro-40/visitors.svg" alt="The best customers" class="slide-icon">  The best customers</h2>
+         <p id="h4"></p>
+        </div>
+     </div>
+     <div id="rhs">
+       
+            <img id="image" src=" ">
+        
+     </div>
+    </div>
+    
+
+</body>
+</html>
+<script>
+    function setimage1(){
+        
+        document.getElementById("image").src="https://envoy.com/images/jobs/life-1.png";
+        document.getElementById("h1").innerText="It's the people who work here that make Envoy special. We welcome and embrace every personality, so show up as your true self and let's have some fun!";
+    }
+    function setimagea(){
+        document.getElementById("h1").innerText=" ";
+    }
+    function setimageb(){
+        document.getElementById("h2").innerText=" ";
+    }
+    function setimagec(){
+        document.getElementById("h3").innerText=" ";
+    }
+    // function setimaged(){
+    //     document.getElementById("h4").innerText=" ";
+    // }
+
+    function setimage2(){
+       document.getElementById("image").src="https://envoy.com/images/jobs/life-2.png";
+       document.getElementById("h2").innerText="If you like small teams that make a big impact, then Envoy is right for you. Come join us to learn, grow your career, and contribute to something big.";
+    }
+    function setimage3(){
+       document.getElementById("image").src="https://envoy.com/images/jobs/life-3.png";
+       document.getElementById("h3").innerText="We build products that solve real problems for our customers. We love to contribute to creating a great workplace experience—both within our own offices and for our customer’s workplaces around the world.";
+    }
+    function setimage4(){
+       document.getElementById("image").src="https://envoy.com/images/jobs/life-4.png";
+       document.getElementById("h4").innerText="From Slack and Pandora, to Box, Yelp and beyond, millions of visitors and employees interact with Envoy everyday. We truly believe that we have the best customers and we love making them happy.";
+    }
+</script>

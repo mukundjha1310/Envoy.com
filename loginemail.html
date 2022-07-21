@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #container{
+        margin: 0px;
+        padding: 0px;
+        background-color: #f6f6f9 ;
+        margin: auto;
+        height: 1000px;
+       border-top: 2px solid red;
+
+    }
+    #emailbox{
+        width: 50%;
+        height: auto;
+        margin: auto;
+        display: grid;
+      
+        margin-top: 200px;
+        justify-content: center;
+        text-align: center;
+    }
+    input{
+        width: 90%;
+        height: 35px;
+        border-radius: 10px;
+        border: .2px solid grey;
+        padding: 10px;
+    }
+    #forminner{
+        background-color: white;
+        margin-top: 30px;
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+    }
+    label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 14px;
+        color: gray;
+        margin-left: 20px;
+    }
+    #image{
+        margin: auto;
+        width: 40%;
+      
+    }#image>img{
+        display: block;
+        size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    h4{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    button{
+        width: 90%;
+        height: 35px;
+        background-color: red; 
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+</style>
+<body>
+    <div id="container">
+        <div id="emailbox">
+            <div id="image">
+                <img src="https://dashboard.envoy.com/assets/images/logo-4809021238a48b1c2864cdba71564128.svg">
+            </div>
+            <div id="forminner">
+                <h3>Log in to the Envoy dashboard</h3>
+                <form action="">
+                    <label>Company email address</label>
+                    <input type="email" placeholder="email address" id="email"><br><br><br>
+                   
+                    <button type="submit">Next</button>
+                    <p>Forgot your password?</p>
+                    </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="./loginemail.js"></script>
