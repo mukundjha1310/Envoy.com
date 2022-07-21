@@ -11,7 +11,6 @@ let remPopUp1 = () => {
 };
 
 
-
 let popUp2 = () => {
   PopUp2.setAttribute("id", "popup2");
   PopUp1.removeAttribute("id", "popup1");

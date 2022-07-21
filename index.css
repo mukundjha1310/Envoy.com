@@ -89,7 +89,7 @@
   font-size: 260%;
   color: #4949a5;
 }
-#lets>div>a>button{
+.learn_more{
   font-weight: 550;
   font-size: 87%;
   border: transparent;
@@ -164,3 +164,4 @@
   color: #4a5266;
   font-size: 106%;
 }
+
