@@ -7,6 +7,7 @@ function compdata(){
             companyname:document.querySelector("#compname").value,
              compansize:document.querySelector("#select").value
         };
+
         if(obj.length===0){
                 alert("please fill all Company data")
         }
@@ -27,5 +28,11 @@ function sign(event){
 }
 function signup(event){
         event.preventDefault()
-        window.location.href="signup.html"
+
+        arr.push(obj);
+        console.log(arr)
+        localStorage.setItem("array",JSON.stringify(arr));
+        window.location.href="index.html";
+    
+
 }

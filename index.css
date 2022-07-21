@@ -1,0 +1,167 @@
+#welcome0 {
+  text-align: center;
+  overflow: hidden;
+  margin: -9px;
+}
+#welcome0 > img {
+  width: 170%;
+  margin-left: -30%;
+}
+#welcome1 {
+  position: absolute;
+  top: 100px;
+  width: 36%;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  line-height: 30px;
+  text-align: left;
+  padding: 10px;
+  font-weight: 500;
+  color: #222a3d;
+  margin-left: 20%;
+  background-color: rgb(255, 255, 255);
+  font-stretch: extra-expanded;
+}
+#welcome1 > div > h1 {
+  font-size: 250%;
+  line-height: 53px;
+  margin-bottom: -10px;
+}
+#welcome1 > div > p {
+  color: #7a8099;
+}
+#inp{
+   margin-top: 30px;
+}
+#inp>input{
+   padding: 8px 13px;
+   font-size: 95%;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid rgb(175, 188, 206);
+   color:#a7a9b3
+}
+#inp>button{
+   font-weight: 550;
+   font-size: 87%;
+   border: transparent;
+   padding: 10px 20px;
+   background-color: rgb(255, 67, 67);
+   color: white;
+   margin-left: 15px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+#cont{
+   margin-top: 27px;
+   color: #7a8099;
+   font-size: 100%;
+   
+}
+#cont>a{
+   text-decoration: none;
+   color: rgb(255, 67, 67);
+   font-size: 100%;
+}
+
+/* <---------Let's go to work----------> */
+
+#letsWork{
+  height: 80vh;
+  display: flex;
+  background-color: #b5e0ec;
+  overflow: hidden;
+  margin: -9px;
+  margin-top: 4px;
+}
+#lets{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10% 5%;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+  font-weight: 550;
+  font-size: 105%;
+  line-height: 25px;
+  text-align: left;
+  color: #4b4b9e;
+}
+#lets>div>h1{
+  font-size: 260%;
+  color: #4949a5;
+}
+.learn_more{
+  font-weight: 550;
+  font-size: 87%;
+  border: transparent;
+  padding: 15px 20px;
+  background-color: #4141a2;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5%;
+  text-decoration: none;
+  color: white;
+}
+#mobImg{
+  width: 50%;
+}
+#mobImg>img{
+  width: 83%;
+  margin-top: -15.5%;
+  margin-left: 10%;
+}
+
+/* <--------Envoy's workplace platform----------> */
+
+#ProductCard1{
+  width: 88%;
+  display: flex;
+  padding: 20px;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 130%;
+  line-height: 120%;
+  margin: auto;
+  margin-top: 80px;
+}
+#ProductCard2{
+  width: 88%;
+  display: flex;
+  padding: 20px;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 130%;
+  line-height: 120%;
+  margin: auto;
+  margin-top: 50px;
+}
+#ProductCard1>div, #ProductCard2>div{
+  width: 24%;
+  margin-left: 2%;
+}
+.proImg{
+  display: flex;
+  align-items: center;
+}
+.proImg>div{
+  width: 17%;
+  margin-right: 17px;
+}
+.proImg>div>img{
+  width: 100%;
+}
+.proHead>p,.links{
+  font-size: 83%;
+  color: #52536b;
+}
+.links>a{
+  font-size: 90%;
+  font-weight: 550;
+  color: #ff3e3e;
+  cursor: pointer;
+  text-decoration: none;
+}
+#ProductCard2>div:last-child{
+  width: 40%;
+  line-height: 230%;
+  color: #4a5266;
+  font-size: 106%;
+}
+
