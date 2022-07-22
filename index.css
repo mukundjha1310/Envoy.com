@@ -1,3 +1,6 @@
+*{
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+}
 #welcome0 {
   text-align: center;
   overflow: hidden;
@@ -11,7 +14,6 @@
   position: absolute;
   top: 100px;
   width: 36%;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
   font-size: 110%;
   line-height: 30px;
   text-align: left;
@@ -33,7 +35,7 @@
 #inp {
   margin-top: 30px;
 }
-#inp > input {
+.inp > input {
   padding: 8px 13px;
   font-size: 95%;
   border-radius: 4px;
@@ -41,7 +43,7 @@
   border: 1px solid rgb(175, 188, 206);
   color: #a7a9b3;
 }
-#inp > button {
+.inp > a > button {
   font-weight: 550;
   font-size: 87%;
   border: transparent;
@@ -77,7 +79,6 @@
   width: 50%;
   box-sizing: border-box;
   padding: 10% 5%;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
   font-weight: 550;
   font-size: 105%;
   line-height: 25px;
@@ -115,7 +116,6 @@
   width: 88%;
   display: flex;
   padding: 20px;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
   font-size: 130%;
   line-height: 120%;
   margin: auto;
@@ -125,7 +125,6 @@
   width: 88%;
   display: flex;
   padding: 20px;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
   font-size: 130%;
   line-height: 120%;
   margin: auto;
@@ -185,7 +184,6 @@
   left: 14%;
 }
 #flexible_work > div > h1 {
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
   font-size: 270%;
   color: white;
   word-spacing: 3px;
@@ -204,7 +202,6 @@
   margin-top: 120px;
   margin-bottom: 90px;
   font-size: 150%;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
 }
 #enterprise-grade h1 {
   word-spacing: 8px;
@@ -225,24 +222,23 @@
 #best_Practices {
   margin-top: 160px;
   color: #3b4050;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
 }
 #best_Practices > div:last-child {
   display: flex;
   gap: 2%;
   padding-left: 5%;
 }
-#best_Practices>div:first-child{
+#best_Practices > div:first-child {
   width: 40%;
   font-size: 140%;
   margin-left: 5%;
 }
-#best_Practices>div:first-child>h1{
+#best_Practices > div:first-child > h1 {
   margin-top: -13px;
   font-size: 185%;
   word-spacing: 4px;
 }
-#best_Practices>div:first-child>h6{
+#best_Practices > div:first-child > h6 {
   color: #7a7f92;
   word-spacing: 2px;
 }
@@ -251,14 +247,14 @@
   font-size: 130%;
   cursor: pointer;
 }
-.bestCards:hover{
+.bestCards:hover {
   color: rgb(255, 64, 64);
 }
-.bestCards>h1{
+.bestCards > h1 {
   margin-top: -5px;
   margin-left: 2px;
 }
-.bestCards>h6{
+.bestCards > h6 {
   font-size: 74%;
   margin-top: -4.5px;
   margin-left: 2px;
@@ -269,95 +265,197 @@
   width: 100%;
   border-radius: 7px;
 }
-.bestCards > a > img:hover{
+.bestCards > a > img:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* <-------------Envoy's Great minds-------------> */
 
-#Great_minds{
+#Great_minds {
   height: 108vh;
   padding: 70px 50px;
-  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
   font-size: 140%;
   background-color: #fa4338;
   margin: 50px -9px;
 }
-#Great_minds>div{
+#Great_minds > div {
   display: flex;
   gap: 2%;
 }
-#Great_minds>div>div:nth-child(2)>div{
+#Great_minds > div > div:nth-child(2) > div {
   margin-top: 40%;
 }
-#Great_minds>div>div:first-child{
+#Great_minds > div > div:first-child {
   width: 62%;
   color: #feb0c5;
 }
-#Great_minds>div>div:first-child>h1{
-  font-size: 299%; 
+#Great_minds > div > div:first-child > h1 {
+  font-size: 299%;
   margin-top: 15%;
 }
-#Great_minds>div>div:first-child>h5{
+#Great_minds > div > div:first-child > h5 {
   line-height: 170%;
   margin-top: -5%;
   font-size: 94%;
 }
-#Great_minds>div>div:first-child>a>button{
+#Great_minds > div > div:first-child > a > button {
   width: 35%;
   font-size: 65%;
   padding: 15px 15px;
 }
-#Great_minds>div>div:nth-child(2){
+#Great_minds > div > div:nth-child(2) {
   width: 35%;
   box-sizing: border-box;
   padding: 10px 20px;
   margin-right: -2%;
 }
-#Great_minds>div>div:last-child{
+#Great_minds > div > div:last-child {
   width: 35%;
   box-sizing: border-box;
   padding: 10px 20px;
 }
-#Great_minds>div>div:last-child>div:last-child{
+#Great_minds > div > div:last-child > div:last-child {
   margin-top: 40px;
 }
-#great2_cards>div:first-child div>img{
+#great2_cards > div:first-child div > img {
   width: 17%;
 }
-#great2_cards>div:last-child div{
+#great2_cards > div:last-child div {
   width: 20%;
 }
-#great2_cards>div:last-child div>img{
+#great2_cards > div:last-child div > img {
   width: 90%;
 }
-#great2_cards>div:last-child{
-  
-}
-
-.great_divs{
+.great_divs {
   padding: 30px 20px;
   margin-bottom: 20px;
   background-color: white;
   border-radius: 5px;
   cursor: pointer;
 }
-.great_divs h5{
+.great_divs h5 {
   color: #3b4050;
   margin-bottom: 3%;
   margin-top: 5%;
 }
-.great_divs h6{
+.great_divs h6 {
   color: #60626b;
   margin-bottom: 0%;
   margin-top: 6%;
 }
-.great_divs>h6:last-child{
+.great_divs > h6:last-child {
   color: #fa3939;
 }
-#Great_minds hr{
+#Great_minds hr {
   margin-top: 5%;
 }
-#Great_minds>div>img{
+#Great_minds > div > img {
   margin-top: 3%;
+}
+
+/*<--------------Envoy's Meet the technology---------------->*/
+
+#meet_tech {
+  width: 45%;
+  margin: auto;
+  font-size: 140%;
+  text-align: center;
+  color: #3b4050;
+  margin-top: 18vh;
+}
+#meet_tech p {
+  font-size: 80%;
+  line-height: 170%;
+  color: #2b2e3a;
+}
+#meet_tech > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+}
+#meet_tech > div h6 {
+  color: rgb(255, 51, 51);
+  font-size: 80%;
+  margin-left: 10%;
+  cursor: pointer;
+}
+#meet_tech > div a > button {
+  padding: 13px 20px;
+  font-size: 80%;
+  font-weight: 550;
+  background-color: rgb(255, 50, 50);
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#techCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  row-gap: 4vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 12vh;
+  margin-bottom: 10vh;
+}
+#techCards > div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #3b4050;
+  padding: 16px 20px;
+  padding-bottom: 10px;
+  font-size: 100%;
+  border-radius: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+#techCards > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#techCards > div > div {
+  width: 18%;
+}
+#techCards > div > div > img {
+  width: 100%;
+}
+#techCards > div > p {
+  line-height: 160%;
+}
+
+/*<--------------Try Envoy for free---------------->*/
+
+#Try_EnvoyFree {
+  display: flex;
+  align-items: center;
+  width: 92%;
+  margin: auto;
+  margin-top: 22vh;
+  margin-bottom: 4vh;
+}
+#Try_EnvoyFree > div:first-child {
+  width: 70%;
+}
+#Try_EnvoyFree > div:first-child h1 {
+  color: rgb(255, 49, 49);
+  font-size: 270%;
+  font-weight: 600;
+}
+#Try_EnvoyFree > div:first-child h5 {
+  font-size: 105%;
+  color: #505464;
+  margin-top: -2vh;
+}
+
+#mob {
+  display: flex;
+  margin-left: 4%;
+  font-size: 160%;
+  color: #4a4f5e;
+  line-height: 0%;
+}
+hr{
+  border: 0.5px solid rgb(219, 219, 219);
 }
