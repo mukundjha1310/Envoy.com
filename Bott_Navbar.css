@@ -1,0 +1,33 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+  margin-top: 20vh;
+}
+#bottNav {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#bottNav div {
+  width: 25%;
+}
+#bottNav div ul {
+  list-style: none;
+}
+#bottNav div ul li a {
+  text-decoration: none;
+  line-height: 180%;
+  color: rgb(127, 135, 150);
+  font-size: 82%;
+  font-weight: 600;
+}
+#bottNav div ul li a:hover {
+  color: rgb(241, 20, 20);
+}
+#bottNav div p {
+  margin-left: 15%;
+  font-weight: 600;
+  color: rgb(88, 94, 109);
+  font-size: 86%;
+}
