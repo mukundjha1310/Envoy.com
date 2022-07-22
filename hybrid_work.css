@@ -1,0 +1,70 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#topHead {
+  width: 80%;
+  margin-left: 5%;
+  font-size: 135%;
+  margin-top: 100px;
+  color: rgb(60, 68, 85);
+}
+#topHead h6 {
+  color: rgb(138, 148, 170);
+}
+#topHead h5 {
+  color: rgb(79, 87, 104);
+  font-size: 101%;
+  font-weight: 400;
+  line-height: 160%;
+}
+#profile {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+#profile > div:first-child {
+  width: 24%;
+}
+#profile > div:first-child > img {
+  width: 70%;
+  border-radius: 100%;
+}
+#profile > div:last-child {
+  line-height: 40%;
+  font-size: 98%;
+  color: rgb(114, 122, 141);
+  margin-left: -10px;
+}
+#profile > div:last-child > p > span {
+  color: rgb(255, 79, 79);
+}
+#work_expImg {
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+}
+#work_expImg > img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+#first_paraDiv {
+  width: 80%;
+  margin-left: 5%;
+  font-size: 100%;
+  color: rgb(64, 69, 83);
+  line-height: 200%;
+}
+#first_paraDiv h1 {
+  font-size: 250%;
+  color: rgb(50, 55, 66);
+  font-weight: 500;
+}
+#first_paraDiv > div:last-child {
+  width: 80%;
+}
+#first_paraDiv > div:last-child > img {
+  width: 100%;
+}

@@ -30,43 +30,42 @@
 #welcome1 > div > p {
   color: #7a8099;
 }
-#inp{
-   margin-top: 30px;
+#inp {
+  margin-top: 30px;
 }
-#inp>input{
-   padding: 8px 13px;
-   font-size: 95%;
-   border-radius: 4px;
-   outline: none;
-   border: 1px solid rgb(175, 188, 206);
-   color:#a7a9b3
+#inp > input {
+  padding: 8px 13px;
+  font-size: 95%;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(175, 188, 206);
+  color: #a7a9b3;
 }
-#inp>button{
-   font-weight: 550;
-   font-size: 87%;
-   border: transparent;
-   padding: 10px 20px;
-   background-color: rgb(255, 67, 67);
-   color: white;
-   margin-left: 15px;
-   border-radius: 4px;
-   cursor: pointer;
+#inp > button {
+  font-weight: 550;
+  font-size: 87%;
+  border: transparent;
+  padding: 10px 20px;
+  background-color: rgb(255, 67, 67);
+  color: white;
+  margin-left: 15px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-#cont{
-   margin-top: 27px;
-   color: #7a8099;
-   font-size: 100%;
-   
+#cont {
+  margin-top: 27px;
+  color: #7a8099;
+  font-size: 100%;
 }
-#cont>a{
-   text-decoration: none;
-   color: rgb(255, 67, 67);
-   font-size: 100%;
+#cont > a {
+  text-decoration: none;
+  color: rgb(255, 67, 67);
+  font-size: 100%;
 }
 
 /* <---------Let's go to work----------> */
 
-#letsWork{
+#letsWork {
   height: 80vh;
   display: flex;
   background-color: #b5e0ec;
@@ -74,7 +73,7 @@
   margin: -9px;
   margin-top: 4px;
 }
-#lets{
+#lets {
   width: 50%;
   box-sizing: border-box;
   padding: 10% 5%;
@@ -85,11 +84,11 @@
   text-align: left;
   color: #4b4b9e;
 }
-#lets>div>h1{
+#lets > div > h1 {
   font-size: 260%;
   color: #4949a5;
 }
-.learn_more{
+.learn_more {
   font-weight: 550;
   font-size: 87%;
   border: transparent;
@@ -101,10 +100,10 @@
   text-decoration: none;
   color: white;
 }
-#mobImg{
+#mobImg {
   width: 50%;
 }
-#mobImg>img{
+#mobImg > img {
   width: 83%;
   margin-top: -15.5%;
   margin-left: 10%;
@@ -112,7 +111,7 @@
 
 /* <--------Envoy's workplace platform----------> */
 
-#ProductCard1{
+#ProductCard1 {
   width: 88%;
   display: flex;
   padding: 20px;
@@ -122,7 +121,7 @@
   margin: auto;
   margin-top: 80px;
 }
-#ProductCard2{
+#ProductCard2 {
   width: 88%;
   display: flex;
   padding: 20px;
@@ -132,36 +131,233 @@
   margin: auto;
   margin-top: 50px;
 }
-#ProductCard1>div, #ProductCard2>div{
+#ProductCard1 > div,
+#ProductCard2 > div {
   width: 24%;
   margin-left: 2%;
 }
-.proImg{
+.proImg {
   display: flex;
   align-items: center;
 }
-.proImg>div{
+.proImg > div {
   width: 17%;
   margin-right: 17px;
 }
-.proImg>div>img{
+.proImg > div > img {
   width: 100%;
 }
-.proHead>p,.links{
+.proHead > p,
+.links {
   font-size: 83%;
   color: #52536b;
 }
-.links>a{
+.links > a {
   font-size: 90%;
   font-weight: 550;
   color: #ff3e3e;
   cursor: pointer;
   text-decoration: none;
 }
-#ProductCard2>div:last-child{
+#ProductCard2 > div:last-child {
   width: 40%;
   line-height: 230%;
   color: #4a5266;
   font-size: 106%;
 }
 
+/* <--------Envoy's flexible workplace video----------> */
+
+#flexible_work {
+  height: 80vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 100px -9px;
+}
+#flexible_work > img {
+  width: 120%;
+}
+#flexible_work > div {
+  width: 70%;
+  position: absolute;
+  top: 20%;
+  left: 14%;
+}
+#flexible_work > div > h1 {
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 270%;
+  color: white;
+  word-spacing: 3px;
+}
+#flexible_work > div img {
+  width: 8%;
+  margin-top: 4%;
+}
+
+/* <--------Envoy's enterprise-grade workplace platform----------> */
+
+#enterprise-grade {
+  width: 37%;
+  margin: auto;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 90px;
+  font-size: 150%;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+}
+#enterprise-grade h1 {
+  word-spacing: 8px;
+  color: #4141a2;
+}
+#enterprise-grade h6 {
+  font-size: 72%;
+  line-height: 150%;
+  color: #5d6881;
+}
+#enterprise-grade button {
+  width: 28%;
+  font-size: 60%;
+}
+
+/* <-------------Envoy's Best_Practices-------------> */
+
+#best_Practices {
+  margin-top: 160px;
+  color: #3b4050;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+}
+#best_Practices > div:last-child {
+  display: flex;
+  gap: 2%;
+  padding-left: 5%;
+}
+#best_Practices>div:first-child{
+  width: 40%;
+  font-size: 140%;
+  margin-left: 5%;
+}
+#best_Practices>div:first-child>h1{
+  margin-top: -13px;
+  font-size: 185%;
+  word-spacing: 4px;
+}
+#best_Practices>div:first-child>h6{
+  color: #7a7f92;
+  word-spacing: 2px;
+}
+.bestCards {
+  width: 30%;
+  font-size: 130%;
+  cursor: pointer;
+}
+.bestCards:hover{
+  color: rgb(255, 64, 64);
+}
+.bestCards>h1{
+  margin-top: -5px;
+  margin-left: 2px;
+}
+.bestCards>h6{
+  font-size: 74%;
+  margin-top: -4.5px;
+  margin-left: 2px;
+  line-height: 150%;
+  color: #7a7f92;
+}
+.bestCards > a > img {
+  width: 100%;
+  border-radius: 7px;
+}
+.bestCards > a > img:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* <-------------Envoy's Great minds-------------> */
+
+#Great_minds{
+  height: 108vh;
+  padding: 70px 50px;
+  font-family: SofiaPro, helvetica neue, Helvetica, Arial, sans-serif;
+  font-size: 140%;
+  background-color: #fa4338;
+  margin: 50px -9px;
+}
+#Great_minds>div{
+  display: flex;
+  gap: 2%;
+}
+#Great_minds>div>div:nth-child(2)>div{
+  margin-top: 40%;
+}
+#Great_minds>div>div:first-child{
+  width: 62%;
+  color: #feb0c5;
+}
+#Great_minds>div>div:first-child>h1{
+  font-size: 299%; 
+  margin-top: 15%;
+}
+#Great_minds>div>div:first-child>h5{
+  line-height: 170%;
+  margin-top: -5%;
+  font-size: 94%;
+}
+#Great_minds>div>div:first-child>a>button{
+  width: 35%;
+  font-size: 65%;
+  padding: 15px 15px;
+}
+#Great_minds>div>div:nth-child(2){
+  width: 35%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin-right: -2%;
+}
+#Great_minds>div>div:last-child{
+  width: 35%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+#Great_minds>div>div:last-child>div:last-child{
+  margin-top: 40px;
+}
+#great2_cards>div:first-child div>img{
+  width: 17%;
+}
+#great2_cards>div:last-child div{
+  width: 20%;
+}
+#great2_cards>div:last-child div>img{
+  width: 90%;
+}
+#great2_cards>div:last-child{
+  
+}
+
+.great_divs{
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.great_divs h5{
+  color: #3b4050;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+.great_divs h6{
+  color: #60626b;
+  margin-bottom: 0%;
+  margin-top: 6%;
+}
+.great_divs>h6:last-child{
+  color: #fa3939;
+}
+#Great_minds hr{
+  margin-top: 5%;
+}
+#Great_minds>div>img{
+  margin-top: 3%;
+}
