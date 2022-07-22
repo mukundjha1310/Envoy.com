@@ -1,0 +1,110 @@
+#red_line{
+   width: 4%;
+   margin: auto;
+   margin-top: 15vh;
+}
+#red_line>hr{
+   border: 2px solid red;
+   border-radius: 15px;
+}
+
+#top_head{
+   width: 50%;
+   margin: auto;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 125%;
+   text-align: center;
+}
+#top_head p{
+   font-size: 115%;
+   line-height: 180%;
+   color: rgb(82, 93, 117);
+}
+#logos{
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   margin-top: 13vh;
+}
+#logos div{
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   width: 10%;
+   height: 17vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+   padding: 10px;
+   border-radius: 110%;
+}
+#logos div img{
+   width: 70%;
+   
+}
+#card1{
+   width: 80%;
+   height: 60vh;
+   display: flex;
+   margin: auto;
+   gap: 30px;
+   align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 7px;
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin-top: 17vh;
+}
+#card1>div:first-child{
+   width: 80%;
+}
+#card1>div:first-child>img{
+   width: 100%;
+}
+#card1>div:last-child{
+   width: 28%;
+   padding: 10px;
+   line-height: 200%;
+   color: rgb(76, 92, 116);
+}
+
+#cards_container{
+   width: 83.5%;
+   margin: auto;
+   margin-left: 10%;
+   margin-top: 13vh;
+   margin-bottom: 10vh;
+   display: grid;
+   grid-template-columns: repeat(3, 30%);
+   gap: 3%;
+}
+#cards_container>div{
+   height: 64vh;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 8px;
+   overflow: hidden;
+}
+#cards_container>div>div:first-child{
+   width: 100%;
+   height: 45%;
+   overflow: hidden;
+}
+#cards_container>div>div:first-child img{
+   width: 100%;
+}
+#cards_container>div>div:nth-child(2){
+   width: 6%;
+   margin-left: 6%;
+   margin-top: 8%;
+}
+#cards_container>div>div:nth-child(2) img{
+   width: 100%;
+}
+#cards_container>div p{
+   margin: 8%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: gray;
+   line-height: 180%;
+}
+#cards_container>div p+p{
+   margin-bottom: 10px;
+}
