@@ -22,14 +22,14 @@ body{
    align-items: center;
    padding-top: 100px;
 }
-.h1{
+.h11{
     color: #f0f4ff;
     font-size: 54px;
     margin: auto;
     text-align: center;
     word-spacing: 3px;   
 }
-span{
+.spn{
     color: #bdccff;
     text-align: center;
     margin: auto;
@@ -39,7 +39,7 @@ span{
  letter-spacing: 1px;
  word-spacing: 3px;
 }
-.h2{
+.h22{
     color: #f0f4ff;
     margin: auto;
     text-align: center;
@@ -84,9 +84,7 @@ small{
 #img-2{
     width: 100%;
 }
-#sticky{
 
-}
 a{
     display: block;
 }
@@ -95,19 +93,20 @@ a{
     height: 70px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid teal;
-    margin-top: 50px;
-    position: fixed;
+    position: -webkit-sticky;
     position: sticky; 
+    top: 0px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .anchor{
     display: block;
+    color: #31317c;
 }
 #part1{
     width: 40%;
     display: flex;
-    /* border: 1px solid teal; */
+  
     justify-content: space-around;
     align-items: center;
     
@@ -115,7 +114,6 @@ a{
 #part2{
     width: 20%;
     display: flex;
-    /* border: 1px solid teal; */
     justify-content: space-around;
     align-items: center;
 }
@@ -126,36 +124,91 @@ margin-right: 5px;
 padding: 10px 20px 10px 20px;
 color: #4141a2;
 border-radius: 5px;
-
-}
-/* #part2>button{
-    padding: 15px;
-    background-color: #FB4338;
-    border: none;
-    border-radius: 5%;
-    color: white;  
-} */
-/* #sticky{
-    width: 70px;
-    border: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
 }
 #line{
-    width: 100%;
+    width: 100px;
     height: 1px;
     border: 1px solid gray;
 }
-#part1{
+.section{
+    width: 90%;  
+    margin: auto; 
     display: flex;
-    align-items: center;
-    justify-content: space-around;  
-} */
-/* #part2{
+margin-top: 100px;
+justify-content: space-around;
+}
+.img{
+    width: 36%;
+    display: block;
+}
+.p+img{
+    width: 70%;
+}
+.span{
+color: #878e9e;
+    font-size: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 3px;   
+}
+.dis{
+    width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;  
-} */
+    flex-direction: column;
+}
+
+.img-div{
+    width: 50%;
+    display: flex;  
+}
+.img-div div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.img-div>img{
+    width: 7%;
+    display: block;
+}
+.h2{
+   font-size: 35px;
+    color: #4141a2;  
+}
+.count{
+    display: flex;
+}
+.full-img{
+    width: 100%;
+    /* margin: 70px 0px 70px 0px; */
+}
+.full-img :first-child{
+    width: 100%;
+    margin: 70px 0px 70px 0px;
+}
+.tool_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f9;
+}
+#tool_img{
+    width: 100%;
+}
+.tool_div{
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,250px);
+    gap: 20px;  
+  background-color: #f6f6f9;
+}
+.tl:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tl>a>img{
+    width: 100%;
+}
+
+
 
