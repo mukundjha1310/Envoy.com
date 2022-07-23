@@ -1,0 +1,132 @@
+* {
+  font-family: sofiapro, helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+#top_head {
+  width: 48%;
+  margin: auto;
+  font-size: 140%;
+  text-align: center;
+  word-spacing: 2px;
+  margin-top: 20vh;
+  color: rgb(74, 80, 94);
+}
+#top_head h6 {
+  font-size: 101%;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: -15px;
+  color: rgb(110, 117, 133);
+  word-spacing: 1px;
+}
+
+#demo_form form {
+  width: 42%;
+  margin: auto;
+  color: rgb(110, 117, 133);
+  font-weight: bold;
+  margin-top: 50px;
+  margin-top: -20px;
+}
+#demo_form form input {
+  width: 96%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 110%;
+  border: 2px solid rgb(209, 224, 235);
+  border-radius: 4px;
+}
+#demo_form form input:hover {
+  background-color: rgb(227, 248, 255);
+  outline: none;
+}
+#demo_form form label {
+  margin-bottom: 5px;
+  font-size: 101%;
+}
+#demo_form form label > span {
+  font-size: 130%;
+  color: #ff2121;
+}
+#demo_form form select {
+  width: 100.5%;
+  margin-bottom: 20px;
+  color: rgb(80, 89, 112);
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 110%;
+  border: 2px solid rgb(209, 224, 235);
+  border-radius: 4px;
+}
+#demo_form form input:last-child {
+  width: 25%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 12px 12px;
+  font-size: 96%;
+  font-weight: 550;
+  color: white;
+  background-color: #ff2121;
+  border: none;
+  border-radius: 3px;
+}
+#demo_form form p {
+  font-size: 93%;
+  color: rgb(94, 102, 119);
+  font-weight: 500;
+}
+#demo_form form p a {
+  text-decoration: none;
+  color: #ff2121;
+}
+#Try_EnvoyFree {
+  display: flex;
+  align-items: center;
+  width: 92%;
+  margin: auto;
+  margin-top: 22vh;
+  margin-bottom: 4vh;
+}
+#Try_EnvoyFree > div:first-child {
+  width: 70%;
+}
+#Try_EnvoyFree > div:first-child h1 {
+  color: rgb(255, 49, 49);
+  font-size: 270%;
+  font-weight: 600;
+}
+#Try_EnvoyFree > div:first-child h5 {
+  font-size: 105%;
+  color: #505464;
+  margin-top: -2vh;
+}
+.inp > input {
+  padding: 8px 13px;
+  font-size: 95%;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(175, 188, 206);
+  color: #a7a9b3;
+}
+.inp > a > button {
+  font-weight: 550;
+  font-size: 87%;
+  border: transparent;
+  padding: 10px 20px;
+  background-color: rgb(255, 67, 67);
+  color: white;
+  margin-left: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#mob {
+  display: flex;
+  margin-left: 4%;
+  font-size: 160%;
+  color: #4a4f5e;
+  line-height: 0%;
+}
+hr {
+  border: 0.5px solid rgb(219, 219, 219);
+}
