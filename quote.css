@@ -1,0 +1,180 @@
+*{
+   font-family: sofiapro, helvetica neue, Helvetica, Arial, sans-serif;
+}
+#top_head, #top_para{
+   width: 50%;
+   margin-left: 16%;
+   font-size: 115%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(57, 71, 97);
+}
+#top_para{
+   width: 60%;
+   margin-top: -30px;
+   color: rgb(90, 104, 129);
+}
+#top_para h6{
+   font-size: 120%;
+   font-weight: 500;
+   line-height: 170%;
+}
+#top_para h6>span{
+   color: rgb(255, 30, 30);
+   cursor: pointer;
+}
+
+#O_list{
+   width: 58%;
+   margin: auto;
+}
+.questions{
+   display: flex;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 10vh;
+}
+.questions>div:nth-child(1){
+   width: 2%;
+   margin-top: 5px;
+}
+.questions>div:nth-child(2){
+   width: 85%;
+   margin-left: 15px;
+   margin-right: 25px;
+}
+.questions>div h4{
+   font-size: 140%;
+   font-weight: 500;
+   margin-top: 0px;
+   color: rgb(48, 63, 73);
+}
+.questions>div p{
+   font-size: 92%;
+   line-height: 160%;
+   margin-top: -20px;
+   color: rgb(77, 102, 117);
+}
+.questions>div a{
+   text-decoration: none;
+   color: red;
+   font-size: 90%;
+}
+.questions>input{
+   width: 8%;
+   height: 6vh;
+   border-radius: 5px;
+   border: 1px solid rgb(194, 194, 194);
+   box-sizing: border-box;
+   padding-left: 20px;
+   font-weight: 600;
+}
+
+#demo_form form {
+   width: 42%;
+   margin: auto;
+   color: rgb(110, 117, 133);
+   font-weight: bold;
+   margin-top: 50px;
+   margin-top: -20px;
+ }
+ #demo_form form input {
+   width: 96%;
+   margin-bottom: 20px;
+   margin-top: 5px;
+   padding: 10px;
+   font-size: 110%;
+   border: 2px solid rgb(209, 224, 235);
+   border-radius: 4px;
+ }
+ #demo_form form input:hover {
+   background-color: rgb(227, 248, 255);
+   outline: none;
+ }
+ #demo_form form label {
+   margin-bottom: 5px;
+   font-size: 101%;
+ }
+ #demo_form form label > span {
+   font-size: 130%;
+   color: #ff2121;
+ }
+ #demo_form form select {
+   width: 100.5%;
+   margin-bottom: 20px;
+   color: rgb(80, 89, 112);
+   margin-top: 5px;
+   padding: 10px;
+   font-size: 110%;
+   border: 2px solid rgb(209, 224, 235);
+   border-radius: 4px;
+ }
+ #demo_form form input:last-child {
+   width: 25%;
+   margin-bottom: 30px;
+   margin-top: 40px;
+   padding: 12px 12px;
+   font-size: 96%;
+   font-weight: 550;
+   color: white;
+   background-color: #ff2121;
+   border: none;
+   border-radius: 3px;
+ }
+ #demo_form form p {
+   font-size: 93%;
+   color: rgb(94, 102, 119);
+   font-weight: 500;
+ }
+ #demo_form form p a {
+   text-decoration: none;
+   color: #ff2121;
+ }
+ #Try_EnvoyFree {
+   display: flex;
+   align-items: center;
+   width: 92%;
+   margin: auto;
+   margin-top: 22vh;
+   margin-bottom: 4vh;
+ }
+ #Try_EnvoyFree > div:first-child {
+   width: 70%;
+ }
+ #Try_EnvoyFree > div:first-child h1 {
+   color: rgb(255, 49, 49);
+   font-size: 260%;
+   font-weight: 600;
+ }
+ #Try_EnvoyFree > div:first-child h5 {
+   font-size: 100%;
+   color: #505464;
+   margin-top: -2vh;
+ }
+ .inp > input {
+   padding: 8px 13px;
+   font-size: 95%;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid rgb(175, 188, 206);
+   color: #a7a9b3;
+ }
+ .inp > a > button {
+   font-weight: 550;
+   font-size: 87%;
+   border: transparent;
+   padding: 10px 20px;
+   background-color: rgb(255, 67, 67);
+   color: white;
+   margin-left: 15px;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ #mob {
+   display: flex;
+   margin-left: 4%;
+   font-size: 160%;
+   color: #4a4f5e;
+   line-height: 0%;
+ }
+ hr {
+   border: 0.5px solid rgb(219, 219, 219);
+ }

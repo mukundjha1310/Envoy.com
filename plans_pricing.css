@@ -1,0 +1,224 @@
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#red_line{
+   width: 4%;
+   margin: auto;
+   margin-top: 15vh;
+}
+#red_line>hr{
+   border: 2px solid red;
+   border-radius: 15px;
+}
+
+#top_head{
+   width: 50%;
+   margin: auto;
+   font-size: 125%;
+   text-align: center;
+   color: rgb(56, 64, 82);
+}
+#top_head p{
+   font-size: 115%;
+   line-height: 180%;
+   color: rgb(82, 93, 117);
+}
+
+.products{
+   display: flex;
+   width: 66%;
+   justify-content: space-between;
+   margin: auto;
+}
+.products>div{
+   width: 24%;
+   text-align: center;
+   font-size: 124%;
+   cursor: pointer;
+}
+.products>div h5{
+   margin-bottom: 15px;
+}
+.products>div hr{
+   border: transparent;
+}
+#products hr{
+   border: 2px solid red;
+   border-radius: 15px;
+}
+#products{
+   color: red;
+}
+#prod_Line{
+   margin-top: -10px;
+   width: 85%;
+   text-align: center;
+}
+
+#Visitor_plans{
+   width: 83%;
+   margin: auto;
+   padding: 10px;
+   color: rgb(91, 111, 129);
+}
+
+#toggle{
+   width: 26%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 110%;
+}
+#toggle>div{
+   width: 13%;
+   height: 3vh;
+   border: 2px solid #2aa57b;
+   border-radius: 50px;
+   background-color: #2aa57b;
+   position: relative;
+}
+#toggle>div>div{
+   position: absolute;
+   width: 60%;
+   height: 3vh;
+   background-color: white;
+   right: 0px;
+   border-radius: 999px;
+
+}
+#toggle h5{
+   color: rgb(49, 49, 49);
+}
+#toggle h5>span{
+   color: #2aa57b;
+}
+#Visitor_plans> p{
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: 110%;
+   line-height: 180%;
+   text-align: center;
+   color: rgb(105, 125, 143);
+   margin-top: 4vh;
+}
+#pricing_cards{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 2px;
+}
+#pricing_cards div{
+   width: 20%;
+   text-align: center;
+   height: 65vh;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   box-sizing: border-box;
+   padding: 10px;
+   border-radius: 8px;
+}
+#pricing_cards div:nth-child(3){
+   border: 2px solid rgb(255, 95, 95);
+}
+#pricing_cards div > p{
+   line-height: 180%;
+}
+#pricing_cards div >p:first-child{
+   font-size: 140%;
+   margin-top: 10px;
+}
+#pricing_cards div > h1{
+   color: rgb(47, 59, 70);
+}
+#pricing_cards div > h5{
+   color: rgb(47, 59, 70);
+   font-size: 100%;
+   margin-top: -6px;
+}
+#pricing_cards div:first-child>a>button{
+   margin-top: 45%;
+}
+#pricing_cards div:nth-child(2)>a>button{
+   margin-top: 17%;
+}
+#pricing_cards div:nth-child(3)>a>button{
+   margin-top: 17%;
+}
+#pricing_cards div:last-child>a>button{
+   margin-top: 52%;
+}
+#pricing_cards div>a>button{
+   padding: 13px 20px;
+   font-size: 96%;
+   border: none;
+   color: white;
+   border-radius: 4px;
+   background-color: rgb(255, 46, 46);
+   cursor: pointer;
+}
+
+#plan_specs{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 5vh;
+}
+#plan_specs>div{
+   width: 20%;
+}
+#plan_specs>div div{
+   display: flex;
+   align-items: center;
+
+}
+#plan_specs>div div>img{
+   margin-right: 10px;
+}
+#Try_EnvoyFree {
+   display: flex;
+   align-items: center;
+   width: 92%;
+   margin: auto;
+   margin-top: 22vh;
+   margin-bottom: 4vh;
+ }
+ #Try_EnvoyFree > div:first-child {
+   width: 70%;
+ }
+ #Try_EnvoyFree > div:first-child h1 {
+   color: rgb(255, 49, 49);
+   font-size: 220%;
+   font-weight: 600;
+ }
+ #Try_EnvoyFree > div:first-child h5 {
+   font-size: 95%;
+   color: #505464;
+   margin-top: -2vh;
+ }
+.inp > input {
+   padding: 8px 13px;
+   font-size: 85%;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid rgb(175, 188, 206);
+   color: #a7a9b3;
+ }
+ .inp > a > button {
+   font-weight: 550;
+   font-size: 87%;
+   border: transparent;
+   padding: 10px 20px;
+   background-color: rgb(255, 67, 67);
+   color: white;
+   margin-left: 15px;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ #mob {
+   display: flex;
+   margin-left: 4%;
+   font-size: 140%;
+   color: #4a4f5e;
+   line-height: 0%;
+ }
+ hr {
+   border: 0.5px solid rgb(219, 219, 219);
+ }
