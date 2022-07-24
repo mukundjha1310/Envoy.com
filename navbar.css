@@ -62,7 +62,7 @@
 
 .popUp1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 50%;
+  width: 54%;
   height: 68vh;
   border: transparent;
   border-radius: 15px;
@@ -75,6 +75,7 @@
   left: 22%;
   transform: translate(0%, -90%) scale(0.1);
   visibility: hidden;
+  z-index: 10000;
 }
 
 .popUp1 {
@@ -171,6 +172,7 @@
   left: 46%;
   transform: translate(0%, -90%) scale(0.1);
   visibility: hidden;
+  z-index: 10000;
 }
 .popUp3 {
   height: 79vh;
