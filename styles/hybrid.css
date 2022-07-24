@@ -75,8 +75,7 @@ body{
     border: 1px solid teal;
     margin-top: 50px;
     position: fixed;
-    position: sticky;
-   
+    position: sticky; 
     background-color: white;
 }
 .anchor{
