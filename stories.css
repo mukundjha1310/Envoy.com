@@ -1,7 +1,7 @@
 #red_line{
    width: 4%;
    margin: auto;
-   margin-top: 15vh;
+   margin-top: 5vh;
 }
 #red_line>hr{
    border: 2px solid red;

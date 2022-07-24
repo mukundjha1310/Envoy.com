@@ -3,9 +3,6 @@
   padding: 0px;
   box-sizing: 0px;
 }
-#navbar {
-  border: 1px solid red;
-}
 #container {
   position: relative;
 }
@@ -17,8 +14,8 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 400px;
-  margin-left: 850px;
+  width: 600px;
+  margin-left: 550px;
   padding: 5px;
   background-color: white;
 

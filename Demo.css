@@ -5,7 +5,7 @@
 #top_head {
   width: 48%;
   margin: auto;
-  font-size: 140%;
+  font-size: 130%;
   text-align: center;
   word-spacing: 2px;
   margin-top: 20vh;
@@ -46,7 +46,7 @@
   font-size: 101%;
 }
 #demo_form form label > span {
-  font-size: 130%;
+  font-size: 100%;
   color: #ff2121;
 }
 #demo_form form select {
@@ -89,11 +89,11 @@
   margin-bottom: 4vh;
 }
 #Try_EnvoyFree > div:first-child {
-  width: 70%;
+  width: 60%;
 }
 #Try_EnvoyFree > div:first-child h1 {
   color: rgb(255, 49, 49);
-  font-size: 270%;
+  font-size: 240%;
   font-weight: 600;
 }
 #Try_EnvoyFree > div:first-child h5 {

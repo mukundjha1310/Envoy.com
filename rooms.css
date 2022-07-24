@@ -3,9 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-#navbar {
-  border: 1px solid red;
-}
 #top {
   text-align: center;
   width: 100%;
@@ -64,8 +61,8 @@ div.sticky {
 }
 #stc {
   display: flex;
-  justify-content: space-around;
-  width: 20%;
+  justify-content: space-between;
+  width: 25%;
 }
 #stc > p {
   color: #404551;

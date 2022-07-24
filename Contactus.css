@@ -56,7 +56,7 @@
   font-size: 101%;
 }
 #demo_form form label > span {
-  font-size: 130%;
+  font-size: 100%;
   color: #ff2121;
 }
 #demo_form form select {
@@ -99,11 +99,11 @@
   margin-bottom: 4vh;
 }
 #Try_EnvoyFree > div:first-child {
-  width: 70%;
+  width: 65%;
 }
 #Try_EnvoyFree > div:first-child h1 {
   color: rgb(255, 49, 49);
-  font-size: 260%;
+  font-size: 240%;
   font-weight: 600;
 }
 #Try_EnvoyFree > div:first-child h5 {

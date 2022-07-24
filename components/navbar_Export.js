@@ -1,12 +1,12 @@
 let topnavbar_html = `<div id="navbar">
 <div id="logo">
-  <img
-    src="https://knightwatch.net/wp-content/uploads/2022/07/Envoy-logo1.png"
-    alt="Envoy"
-  />
+  <a href="Index.html"><img
+  src="https://knightwatch.net/wp-content/uploads/2022/07/Envoy-logo1.png"
+  alt="Envoy"
+  /></a>
 </div>
 <div id="menu">
-  <div id="hiring">We're hiring!</div>
+  <div id="hiring"><a href="hiring.html">We're hiring!</a></div>
   <div onmouseenter="popUp1()" onclick="remPopUp1()" id="products">
     Products ˅
   </div>
@@ -16,14 +16,14 @@ let topnavbar_html = `<div id="navbar">
   <div onmouseenter="popUp3()" onclick="remPopUp3()" id="resources">
     Resources ˅
   </div>
-  <div id="demo">Watch Demo</div>
+  <div id="demo"><a href="Demo.html">Demo</a></div>
   <div onmouseenter="popUp4()" onclick="remPopUp4()" id="pricing">
     Pricing ˅
   </div>
 </div>
 <div id="loginBtn">
-  <button id="login">Log in</button>
-  <button id="started">Get started</button>
+<a href="loginemail.html"><button id="login">Log in</button></a>
+<a href="signup.html"><button id="started">Get started</button></a>
 </div>
 </div>
 <div onmouseleave="remPopUp1()" class="popUp1">
@@ -200,47 +200,59 @@ let topnavbar_html = `<div id="navbar">
 </div>
 </div>`;
 
-let append_navbar_HTML=(container)=>{
-   container.innerHTML=topnavbar_html;
-}
+let append_navbar_HTML = (container) => {
+  container.innerHTML = topnavbar_html;
+};
 
-let popUp1 = (PopUp1,PopUp2,PopUp3,PopUp4) => {
-   PopUp1.setAttribute("id", "popup1");
-   PopUp2.removeAttribute("id", "popup2");
-   PopUp3.removeAttribute("id", "popup3");
-   PopUp4.removeAttribute("id", "popup4");
- };
- let remPopUp1 = (PopUp1) => {
-   PopUp1.removeAttribute("id", "popup1");
- };
- 
- let popUp2 = (PopUp2,PopUp1,PopUp3,PopUp4) => {
-   PopUp2.setAttribute("id", "popup2");
-   PopUp1.removeAttribute("id", "popup1");
-   PopUp3.removeAttribute("id", "popup3");
-   PopUp4.removeAttribute("id", "popup4");
- };
- let remPopUp2 = (PopUp2) => {
-   PopUp2.removeAttribute("id", "popup2");
- };
- 
- let popUp3 = (PopUp3,PopUp1,PopUp2,PopUp4) => {
-   PopUp3.setAttribute("id", "popup3");
-   PopUp1.removeAttribute("id", "popup1");
-   PopUp2.removeAttribute("id", "popup2");
-   PopUp4.removeAttribute("id", "popup4");
- };
- let remPopUp3 = (PopUp3) => {
-   PopUp3.removeAttribute("id", "popup3");
- };
- 
- let popUp4 = (PopUp4,PopUp1,PopUp2,PopUp3) => {
-   PopUp4.setAttribute("id", "popup4");
-   PopUp1.removeAttribute("id", "popup1");
-   PopUp2.removeAttribute("id", "popup2");
-   PopUp3.removeAttribute("id", "popup3");
- };
- let remPopUp4 = (PopUp4) => {
-   PopUp4.removeAttribute("id", "popup4");
- };
-export {append_navbar_HTML, popUp1, remPopUp1, popUp2, remPopUp2, popUp3, remPopUp3, popUp4, remPopUp4};
+let popUp1 = (PopUp1, PopUp2, PopUp3, PopUp4) => {
+  PopUp1.setAttribute("id", "popup1");
+  PopUp2.removeAttribute("id", "popup2");
+  PopUp3.removeAttribute("id", "popup3");
+  PopUp4.removeAttribute("id", "popup4");
+};
+let remPopUp1 = (PopUp1) => {
+  PopUp1.removeAttribute("id", "popup1");
+};
+
+let popUp2 = (PopUp2, PopUp1, PopUp3, PopUp4) => {
+  PopUp2.setAttribute("id", "popup2");
+  PopUp1.removeAttribute("id", "popup1");
+  PopUp3.removeAttribute("id", "popup3");
+  PopUp4.removeAttribute("id", "popup4");
+};
+let remPopUp2 = (PopUp2) => {
+  PopUp2.removeAttribute("id", "popup2");
+};
+
+let popUp3 = (PopUp3, PopUp1, PopUp2, PopUp4) => {
+  PopUp3.setAttribute("id", "popup3");
+  PopUp1.removeAttribute("id", "popup1");
+  PopUp2.removeAttribute("id", "popup2");
+  PopUp4.removeAttribute("id", "popup4");
+};
+let remPopUp3 = (PopUp3) => {
+  PopUp3.removeAttribute("id", "popup3");
+};
+
+let popUp4 = (PopUp4, PopUp1, PopUp2, PopUp3) => {
+  PopUp4.setAttribute("id", "popup4");
+  PopUp1.removeAttribute("id", "popup1");
+  PopUp2.removeAttribute("id", "popup2");
+  PopUp3.removeAttribute("id", "popup3");
+};
+let remPopUp4 = (PopUp4) => {
+  PopUp4.removeAttribute("id", "popup4");
+};
+
+
+export {
+  append_navbar_HTML,
+  popUp1,
+  remPopUp1,
+  popUp2,
+  remPopUp2,
+  popUp3,
+  remPopUp3,
+  popUp4,
+  remPopUp4,
+};

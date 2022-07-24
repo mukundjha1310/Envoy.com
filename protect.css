@@ -3,9 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
-#navbar {
-  border: 1px solid red;
-}
 #container {
   display: flex;
   background-color: #f6f6f9;

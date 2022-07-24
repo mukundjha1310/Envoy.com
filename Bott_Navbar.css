@@ -2,12 +2,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 hr {
-  margin-top: 20vh;
+  margin-top: 0vh;
 }
 #bottNav {
   width: 80%;
   display: flex;
+  margin: auto;
   justify-content: space-evenly;
+  margin-top: 10px;
 }
 #bottNav div {
   width: 25%;
@@ -30,4 +32,5 @@ hr {
   font-weight: 600;
   color: rgb(88, 94, 109);
   font-size: 86%;
+  margin-bottom: 7px;
 }

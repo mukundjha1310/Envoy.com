@@ -1,5 +1,6 @@
 #navbar {
   display: flex;
+  align-items: center;
   height: 80px;
   align-items: center;
   margin-top: -10px;
@@ -8,7 +9,7 @@
   width: 17%;
   margin-left: 10px;
 }
-#logo > img {
+#logo a img {
   width: 47%;
   cursor: pointer;
 }
@@ -27,11 +28,20 @@
   color: rgb(117, 117, 117);
   cursor: pointer;
 }
+#menu div a{
+  text-decoration: none;
+  font-size: 84%;
+  color: rgb(117, 117, 117);
+}
+#menu div a:hover{
+  color: rgb(253, 68, 68);
+}
 #menu > div:hover {
   color: rgb(253, 68, 68);
 }
 #loginBtn {
   display: flex;
+  align-items: center;
 }
 #login {
   border: transparent;
@@ -62,7 +72,7 @@
 
 .popUp1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 54%;
+  width: 60%;
   height: 68vh;
   border: transparent;
   border-radius: 15px;
@@ -76,6 +86,7 @@
   transform: translate(0%, -90%) scale(0.1);
   visibility: hidden;
   z-index: 10000;
+  font-size: 85%;
 }
 
 .popUp1 {
@@ -90,13 +101,13 @@
   margin-top: 10px;
   margin-bottom: 6px;
   color: grey;
-  font-size: 110%;
+  font-size: 100%;
 }
 #navProduct1 > a {
   margin-top: 10px;
   margin-bottom: 6px;
   color: rgb(243, 54, 54);
-  font-size: 110%;
+  font-size: 100%;
   font-weight: 550;
 }
 .navPro {
@@ -158,9 +169,7 @@
 .popUp2,
 .popUp3,
 .popUp4 {
-  width: 21%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  height: 62vh;
   border: transparent;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -173,13 +182,12 @@
   transform: translate(0%, -90%) scale(0.1);
   visibility: hidden;
   z-index: 10000;
+  font-size: 90%;
 }
 .popUp3 {
-  height: 79vh;
   left: 52%;
 }
 .popUp4 {
-  height: 37vh;
   left: 68%;
 }
 .popUp2 > div,
