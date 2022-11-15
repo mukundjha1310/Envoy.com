@@ -4,7 +4,7 @@
 <br>
 <h2>Envoy is a company that provides outsourcing services to various other organizations. Envoy helps you handle everything that comes through your company’s front door.<h2/>
 <br>
-<h2>Tech Stack :<h2/>
+<h2>Tech Stacks :<h2/>
 <p>1. HTML<p/>
 <p>2. CSS<p/>
 <p>3. JavaScript<p/>
